@@ -40,3 +40,8 @@ a:link {
   text-align: center;
   font-size: 14px;
 }
+
+.footer a {
+  color: inherit;
+  text-decoration: underline;
+}
