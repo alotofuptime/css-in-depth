@@ -28,3 +28,7 @@ h1 {
 .nav .featured {
   background-color: orange;
 }
+
+a:link {
+  color: blue;
+}
