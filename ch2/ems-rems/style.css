@@ -1,0 +1,5 @@
+.padded {
+  /* local definition for 1em  */
+  font-size: 16px;
+  padding: 1em;
+}
