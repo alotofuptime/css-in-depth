@@ -3,8 +3,11 @@ body {
 }
 
 .slogan {
-  /* 1.2 times inherited font-size */
+  /* 1.2 times inherited font-size 19.2px*/
   font-size: 1.2em;
+  /* 1.2 times local font-size 23.04 */
+  padding: 1.2em;
+  background: #ccc;
 }
 
 .padded {
