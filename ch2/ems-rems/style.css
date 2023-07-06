@@ -1,3 +1,12 @@
+body {
+  font-size: 16px;
+}
+
+.slogan {
+  /* 1.2 times inherited font-size */
+  font-size: 1.2em;
+}
+
 .padded {
   /* local definition for 1em  */
   font-size: 16px;
