@@ -1,13 +1,15 @@
 body {
   font-size: 16px;
 }
-
-ul {
-  font-size: 0.8em;
+/* pseudo-class === html type selector */
+:root {
+  /* uses browser default size (16px) */
+  font-size: 1em;
 }
 
-ul ul {
-  font-size: 1em;
+ul {
+  /* relative to root font-size */
+  font-size: 0.8rem;
 }
 
 .slogan {
