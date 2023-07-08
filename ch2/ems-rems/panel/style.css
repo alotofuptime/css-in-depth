@@ -18,6 +18,8 @@
 }
 
 .panel {
+  /* establishes predictable font-size for the component */
+  font-size: 1rem;
   padding: 1em;
   border-radius: 0.5em;
   border: 1px solid #999;
@@ -25,7 +27,12 @@
 
 .panel > h2 {
   margin-top: 0;
-  font-size: 0.8rem;
+  /* uses ems to make other fonts relative to the established parent font size */
+  font-size: 0.8em;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.panel.large {
+  font-size: 1.2rem;
 }
