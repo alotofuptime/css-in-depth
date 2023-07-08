@@ -1,6 +1,20 @@
 :root {
-  /* default font size of 14px (14/16 - inherited browser default) */
-  font-size: 0.875em;
+  /* applies to all screens but overridden for larger screens */
+  font-size: 0.75em;
+}
+
+/* applies only to screens 800px & larger, overriding the original value */
+@media (min-width: 800px) {
+  :root {
+    font-size: 0.875em;
+  }
+}
+
+/* applies only to screens 1200px & larger, overriding both values */
+@media (min-width: 1200px) {
+  :root {
+    font-size: 1em;
+  }
 }
 
 .panel {
