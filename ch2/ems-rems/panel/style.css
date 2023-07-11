@@ -2,6 +2,15 @@
   font-size: calc(0.5em + 1vw);
 }
 
+body {
+  /* descendant elements inherit the unitless value */
+  line-height: 1.2;
+}
+
+.about-us {
+  font-size: 2em;
+}
+
 .panel {
   /* establishes predictable font-size for the component */
   font-size: 1rem;
