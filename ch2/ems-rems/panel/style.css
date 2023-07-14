@@ -3,11 +3,12 @@
 }
 
 body {
-  /* descendant elements inherit the unitless value */
-  line-height: 1.2;
+  /* Descendant elements inherit the calculated value (19.2 px) */
+  line-height: 1.2em;
 }
 
 .about-us {
+  /* Evaluates to 32 px */
   font-size: 2em;
 }
 
