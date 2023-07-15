@@ -4,6 +4,8 @@
 }
 
 p {
-  font-family: var(--main-font);
-  color: var(--brand-color);
+  /* specifies a fallback value of sans-serif */
+  font-family: var(--main-font, sans-serif);
+  /* secondary-color is undefine so fallback value of blue is used */
+  color: var(--secondary-color, blue);
 }
